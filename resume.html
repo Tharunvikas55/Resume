@@ -1,12 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
-</head>
-<body>
-    <h1>My Resume</h1>
-    <p>You can view my resume <a href="tharun_s_resume.pdf" target="_blank">Click Here</a>!.</p>
-</body>
+    <style>
+      /* Reset default styles */
+      body,
+      h1,
+      p {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Set background, font, and layout */
+      body {
+        background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+        font-family: "Arial", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+      }
+
+      /* Container styling */
+      .container {
+        text-align: center;
+        background: #ffffff;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        width: 90%;
+        transition: transform 0.3s ease;
+      }
+
+      .container:hover {
+        transform: translateY(-10px);
+      }
+
+      /* Title styling */
+      h1 {
+        font-size: 2.5em;
+        color: #2c3e50;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+      }
+
+      /* Paragraph and link styling */
+      p {
+        font-size: 1.2em;
+        color: #7f8c8d;
+        margin-bottom: 30px;
+      }
+
+      a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #1a73e8;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 25px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+      }
+
+      a:hover {
+        background-color: #1558b3;
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>My Resume</h1>
+      <p>
+        You can view my resume
+        <a href="TharunVikasSS.pdf" target="_blank">Click Here</a>.
+      </p>
+    </div>
+  </body>
 </html>
