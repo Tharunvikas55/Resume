@@ -1,1 +1,1 @@
-(https://peach-malissa-16.tiiny.site)
+https://peach-malissa-16.tiiny.site
